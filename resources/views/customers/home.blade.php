@@ -8,7 +8,7 @@
 
             <div class="cardHeader">
                 <h2>Usuários</h2>
-                <abbr title="Novo Usuário"><a href="{{url('/custumers/create-form')}}" class="btn">
+                <abbr title="Novo Usuário"><a href="{{url('/customers/create-form')}}" class="btn">
                         +
                     </a></abbr>
             </div>
