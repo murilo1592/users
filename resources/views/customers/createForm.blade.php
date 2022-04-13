@@ -10,7 +10,7 @@
                 <h2>Formulario</h2>
             </div>
 
-            <form action="{{url('/custumers/create')}}" method="POST" autocomplete="off">
+            <form action="{{url('/customers/create')}}" method="POST" autocomplete="off">
 
                 <?= csrf_field(); ?>
 

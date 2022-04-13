@@ -18,8 +18,8 @@ Route::get('/', 'ControllerUser@index');
  */
 Route::get('/dashboard', 'ControllerUser@index');
 Route::get('/usuarios', 'ControllerUser@index');
-Route::get('/custumers/create-form', 'ControllerUser@createForm');
-Route::post('/custumers/create', 'ControllerUser@create');
+Route::get('/customers/create-form', 'ControllerUser@createForm');
+Route::post('/customers/create', 'ControllerUser@create');
 Route::get('/customer/show/{id}', 'ControllerUser@show');
 Route::put('/customer/edit/{id}', 'ControllerUser@edit');
 Route::get('/customer/delete/{id}', 'ControllerUser@destroy');
